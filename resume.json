@@ -1,35 +1,35 @@
 {
  "data_lang": "zh-CN",
   "ga_id": "UA-63818301-2",
-  "resume_title": "王琨 - 个人简历",
-  "name": "王琨",
-  "repo": "https://github.com/luckymore0520/resume.git",
-  "job_description": ["iOS开发工程师", "软件工程师"],
+  "resume_title": "于越 - 个人简历",
+  "name": "于越",
+  "repo": "git@github.com:yuyue94/Resume.git",
+  "job_description": ["前端开发工程师"],
   "contact": {
-    "phone": "18606269492",
-    "email": "njuluckwang@gmail.com",
+    "phone": "15851810101",
+    "email": "244055388@qq.com",
     "wechat": {
-      "id": "nju_luck_wang",
+      "id": "alpha-doge",
       "qrcode": "static/wechat.svg"
     },
     "sinaweibo": {
-      "id": "___弈阳",
-      "url": "http://weibo.com/u/2274597140"
+      "id": "请叫我主播",
+      "url": "http://weibo.com/u/3444398134"
     },
     "github": {
-      "id": "luckymore0520"
+      "id": "yuyue94"
     },
     "blog": {
-      "url": "http://blog.luckmore.wang"
+      "url": "http://cooltag.me"
     }
   },
   "links": [{
     "type": "repo",
-    "url": "https://github.com/luckymore0520/resume"
+    "url": "https://github.com/yuyue94/Resume"
 
   }, {
     "type": "pdf",
-    "url": "static/luckymore0520.pdf"
+    "url": "static/yuyue94.pdf"
 
   }],
   "education": [{
@@ -39,10 +39,6 @@
     "start": "2012",
     "end": "2016",
     "honor": [
-      "2012 - 2013 **廖式奖学金**",
-      "2013 - 2014 **郑钢奖学金**",
-      "2014        **花旗杯金融与信息技术应用大赛一等奖**",
-      "2016        **南京大学优秀毕业生**"
     ]
   },
     {
@@ -59,216 +55,184 @@
     "certificate": [{
       "type": "CET-4",
       "full": "750",
-      "score": "598"
+      "score": ""
     }, {
       "type": "CET-6",
       "full": "750",
-      "score": "545"
+      "score": ""
     }],
     "description": [
       "科学上网，熟练使用谷歌进行英文检索，自行解决问题",
-      "流畅阅读英文专业书籍、文档",
-      "能够在 Stack Overflow、Github 等社区正常进行英文交流"
+      "流畅阅读英文文档"
     ]
   }],
   "experience": [ {
     "type": "internship",
-    "techtype": "项目经理",
-    "place": "南京一可米互联网有限公司（创业）",
-    "start": "2016-9",
-    "end": "2017-1",
-    "name": "项目经理",
+    "techtype": "前端",
+    "place": "贝湾教育科技有限公司",
+    "start": "2015-7",
+    "end": "2016-1",
+    "name": "前端开发",
     "description": [
-      "负责整个技术团队的项目管理，包括需求对接、项目计划、任务分配、进度评审、产品验证发布等工作。整合开发资源，保证所有开发任务能够顺利完成。",
-      "主导完成了另外一个项目——course+，从产品设计到最终的实现、上线、盈利。个人除了带领团队在20天内完成所有的开发任务外，还完成了原型设计、 UI 设计和服务器接口的设计和实现。",
-      "作为 `Scrum Master` 带领技术团队使用 `Scrum` 开发 course+ 新版"
+      "英语考题的出题端和做题端，题型包括常见的阅读理解，完形填空，句子排序，段落标题等10种题型",
+      "重构了扇贝英语的阅读计划模块，听力计划模块，以及整个听力学习模块的代码，代码逻辑更加清晰，代码的复用率也提高了",
+      "使用`Hybrid技术`，完成3种不同主题的打卡页面，`响应式布局`，适配ios和安卓各类机型，还包括ipad的横屏和竖屏",
+      "增加了全局查询柯林斯字典的功能",
+      "增加短信通信留言的功能",
+      "公司采用线上开发的形式，使用命令行中的`vim`完成所有编码工作",
+      "第一次的实习，由于公司将大部分前端工作都交给两位实习生来做，其间我学到了非常多的基础知识，动手能力得到非常大的提高，第一次接触到了js框架——Backbone"
     ],
-    "stack": ["项目管理", "Scrum", "产品设计"]
+    "stack": ["Backbone", "Jquery tmpl", "Less", "Vim"]
   }, {
+    "type": "job",
+    "techtype": "前端",
+    "place": "鱼骨头网络科技有限公司（创业）",
+    "start": "2015-6",
+    "end": "2016-3",
+    "name": "约猫",
+    "description": [
+      "一款邀约类的手机app，使用`Hybrid`技术，响应式布局，完成查看邀约列表，查看邀约详细信息，活动参与，评分等功能",
+      "使用`PS`完成app应用的界面图设计",
+      "充当了`项目经理`的角色，管理了一个小的技术团队，负责与安卓原生端还有后端对接",
+      "创业练手项目，依然使用`Backbone框架`，Hybrid这种方式最大的缺点就是性能太低，开发的效率也不高，而且与安卓原生端独立开发，联合调试的机会少，其间也出现了很多时间浪费的情况"
+    ],
+    "stack": ["Backbone", "Hybrid", "PS"]
+  },
+  {
+    "type": "project",
+    "techtype": "node",
+    "project_type": "personal",
+    "name": "网站安全检测爬虫",
+    "source": "",
+    "description": [
+      "毕业设计，使用`node`开发的网站安全检测爬虫，是整个安全平台的一部分，爬虫会将检测信息存为json格式的文件，供数据同步化模块处理",
+      "学习了`commonJS`规范，`mongodb`的使用，`promise`机制，异步编程尝试对比使用了三种异步控制工具async，q，eventProx",
+      "对比使用了两种请求工具，superagent和request，解决了让人头疼的`中文编码问题`",
+      "使用了生产者和消费者模式，由拆分合并爬虫任务，到爬虫任务的调度，再到爬虫任务的执行，将数据库作为任务池，但IO较多，性能不高",
+      "尝试解决了由于闭包引发的`内存泄漏`的问题"
+    ],
+    "stack": ["node", "promise", "mongodb", "安全检测"]
+  },
+  {
+    "type": "outsource",
+    "techtype": "前端",
+    "place": "江苏同袍信息科技有限公司",
+    "start": "2016-3",
+    "end": "2016-9",
+    "name": "前端开发",
+    "description": [
+      "同袍预警监控平台（http://www.bugglare.com/），用于监控网站安全，扫描网站漏洞，是上一个项目的管理端，但现在归属于同袍科技，我继续完善管理端的前端",
+      "使用模块化工具`requireJs`，学习`AMD`和`CMD`规范，使用`adminLTE`的ui框架",
+      "学习使用`echarts`作图，作图总数30个左右，为了适配公司的统一配色，写了个简单的echarts组件库chartsLibrary，组件库只有三种常用图表"
+    ],
+    "stack": ["requirejs", "echarts"]
+  },
+  {
+    "type": "project",
+    "techtype": "前端",
+    "project_type": "personal",
+    "name": "webvox",
+    "source": "https://github.com/yuyue94/webvox",
+    "description": [
+      "为了学习`react`和`webpack`做的个人项目，是一个网页音乐播放器",
+      "为了界面效果好看，加了一些css3动画，最麻烦的是要实现流畅地拖拽进度条，当时考虑的要去掉默认的selection，而且要考虑用户拖拽时鼠标的顺势向下移动带来的问题",
+      "学习使用了音乐播放插件`soundManager2`"
+    ],
+    "stack": ["react", "webpack", "soundManager2"]
+  },
+  {
     "type": "internship",
     "techtype": "iOS",
-    "place": "掌赢信息科技",
-    "start": "2015-2",
-    "end": "2015-12",
-    "name": "iOS开发",
+    "place": " 南京慕测信息科技有限公司（创业）",
+    "start": "2016-7",
+    "end": "2017-3",
+    "name": "前端开发",
     "description": [
-      "完成视频聊天应用—— `ChatGame` UI层的重构，使用 `Xib` + `AutoLayout` 替代纯代码手写的 UI , 易于后期维护和适配",
-      "完成每周相关新增功能和需求",
-      "完成项目的埋点工作，实现一套利用 `Aspect` 将埋点与原有逻辑分离的埋点方案",
-      "完成应用新版本的核心需求——视频卡通化，通过`骨骼动画`将视频与可动画的卡通人物相结合",
-      "在原先 C2C 单聊的基础上实现了群组聊天",
-      "相比之前的应用，该应用复杂度明显提高，尤其是在视频聊天部分的逻辑相当复杂，很好地锻炼了我处理复杂逻辑的能力，也更好地理解了设计模式在客户端开发中的重要意义",
-      "修改应用 Bug ，提高应用性能， 值得一提的是，在公司的 Bug 平台上， 由我个人解决的 Bug 大致占了所有解决数的一半，简而言之自认有比较强的解决问题、发现问题的能力"
+      "慕测平台是做各类型测试的网络学习和考试平台（http://www.mooctest.net/），我主要负责做网络安全测试这一块",
+      "分两个项目，第一个是kivul，是一个常见十大漏洞学习平台，由开源项目`webgoat`改造而来，主要增加了考试的功能",
+      "其间额外写了一个python试题的出题器，可以添加题目描述，题目的实例代码，测试用例（分专业版和小白版），题目答案，提示等，使用`sessionStorage`前端缓存，保证刷新后当前提交前的编辑不会丢失，网页代码的编辑使用的是插件ace",
+      "第二个项目是kivul的网络漏洞审核验证平台，使用的框架是`angular`，自动化构建工具是`gulp`，ui框架是`gentelella`",
+      "采用`众包测试`的思想，由企业人员创建站点任务，将扫描出的站点漏洞打包成案例，上传至慕测主站，可以供老师使用和考试，学生可以验证漏洞以此达到学习的目的，做到产教结合",
+      "在团队中，根据业务需求，统一了所有子站的前端框架和ui框架，以及一些编码规范，为团队前端做出了不错的贡献"
     ],
-    "stack": ["iOS", "Objective", "Xib", "Autolayout", "Debug"]
-  }, {
-    "type": "internship",
-    "techtype": "iOS",
-    "place": "福猫科技（创业）",
-    "start": "2014-5",
-    "end": "2015-2",
-    "name": "iOS开发",
-    "description": [
-      "自学 iOS 开发， 两个月内完成包括`掌上南大`在内的18所学校的 App 的开发并上架，同时完成后期维护工作，使用 `storyboard` + `AutoLayout` 进行界面布局， 使用 google 的 `protol buffer` 技术完成数据传输， 通过 git 分支的方式维护 18 个学校的不同 App",
-      "三周内独立完成 App ——`研大大` iOS 开发，项目涉及到了包括自定义相机、自定义相册、自定义图片浏览器、图片音乐的存储、音乐视频的播放等模块"
-    ],
-    "stack": ["iOS", "Objective", "SDWebImage", "MWPhotoBrowser"]
-  },
-  {
-    "type": "project",
-    "techtype": "iOS & Android",
-    "project_type": "personal",
-    "name": "Co!orMix",
-    "source": "https://github.com/Cee/ColorMix",
-    "demo": "http://colormix.cee.moe/",
-    "description": [
-      "一款基于 iOS 以及 Android 平台的颜色小游戏，由一个三人小团队完成，本人负责主要编码工作",
-      "使用 `MVC` 架构，iOS 方面使用 `Size Classes` + `Autolayout` 完成界面搭建，支持各种尺寸的 iOS 设备，支持横竖屏切换",
-      "加入友盟统计，支持 Game Center，上线至今错误率为0%",
-      "这是一次闪电式的开发，从项目的设计到最终的编码以及上线均在一周内完成， 然而依旧注重代码质量， 所有的提交均通过 `Pull Request` 由团队成员 Review 过后方可入库， 从而保障了项目的稳定性",
-      "项目虽小，但是从起初的设计上就严格遵守了面向对象的编程范式，从而具有很好的可读性"
-    ],
-    "stack": ["iOS", "Objective-C"]
-  },
-  {
-    "type": "project",
-    "techtype": "iOS",
-    "project_type": "personal",
-    "name": "GreenTea",
-    "source": "https://github.com/luckymore0520/GreenTea",
-    "demo": "https://github.com/luckymore0520/GreenTea",
-    "description": [
-      "毕设项目，一款完整的奶茶集点卡应用",
-      "基于 `Swift 2.3` 开发， 使用 `Sketch` 完成 UI 设计， 从需求分析、项目设计到最终的实现均有个人独立完成",
-      "使用 `LeanCloud` 的数据存储服务来替代服务器的开发",
-      "接入高德地图，完成定位、地图、兴趣点选择相关业务",
-      "尝试使用 `面向协议编程的MVVM` 模式来利用协议扩展的新特性简化 UI 渲染的逻辑， 给 Controller 瘦身",
-      "尝试使用协议扩展配合组合替代继承降低代码耦合度"
-    ],
-    "stack": ["iOS", "Swift" , "设计"]
-  },
-  {
-    "type": "project",
-    "techtype": "iOS",
-    "project_type": "work",
-    "name": "章鱼互动",
-    "demo": "https://itunes.apple.com/us/app/%E7%AB%A0%E9%B1%BC%E4%BA%92%E5%8A%A8/id1176536756?l=zh&ls=1&mt=8",
-    "description": [
-      "首次以个人名义在众包平台实现网上接的外包项目并成功交付上线，使用 `Objective-C` 进行开发",
-      "灵活选择 `Xib` 与 `Masonry` 配合的方式完成不同需求页面的布局和变化",
-      "项目为足球竞技项目，规模适中，整体的难点在于复杂的页面布局、开设对战和显示的逻辑以及各种特殊情况的处理",
-      "实时性要求与数据一致性检查",
-      "接入内购"
-    ],
-    "stack": ["iOS", "CocoaPods"]
-  },
-  {
-    "type": "project",
-    "techtype": "iOS",
-    "project_type": "work",
-    "name": "OK帮",
-    "description": [
-      "第一个实际上的外包项目，众包平台（http://ok-bang.com/）的 iOS 端开发",
-      "自己对 `AFNetworking` 完成了一层封装，用于处理网络请求",
-      "利用 APNS 在线推送机制基本实现了简单实时聊天， 使用 `JSQMessage` 完成聊天页面的布局",
-      "接入 Ping++ ，支持支付功能"
-    ],
-    "stack": ["iOS", "CocoaPods"]
-  },{
-    "type": "project",
-    "techtype": "iOS",
-    "project_type": "team",
-    "name": "米盒",
-    "description": [
-      "学生创业项目（http://mebox.top）的 iOS 端开发",
-      "第一次使用 `Swift` 进行实际项目的开发",
-      "使用了 `Kingfisher`、`Alamofire`、`SwiftyJSON` 等主流Swift框架搭配一些 Objective-C 开发的 UI 组件进行开发",
-      "在完成 1.0 的开发不久后， 继续带队进行 2.0 的开发， 基于 Swift 2.3， 利用协议扩展的新特性尝试使用面向协议范式进行编程"
-    ],
-    "stack": ["iOS", "Swift" , "POP"]
+    "stack": ["Backbone", "Angular", "ace", "gulp"]
   }],
   "skills": [{
     "type": "frontend",
     "item": [{
-      "summary": "`Objective-C`",
+      "summary": "`前端基础`",
       "description": [
-        "熟练使用 `Objective-C` 编写 `iOS `应用",
-        "熟练使用 `Xib` 以及 `Storyboard` 进行 UI 上的编写， 典型 IB 党， 当然并不排斥使用一些开源的框架类似 `Masonry` 和 `Cartography` 来进行约束的代码配置",
-        "对 `Objective-C` 内存管理机制，runtime、block、gcd、runloop、协议等有一定了解",
-        "熟练使用 `Instruments` 进行内存、效率相关的调试，掌握基本的利用 `Xcode` 的调试技巧",
-        "熟练使用系统相关API，熟练使用 `UIKit` 搭建 iOS 应用",
-        "良好的编码习惯，读过两遍《Effective Objective-C 2.0》 懂得如何写出高效优雅的 `Objective-C` 代码"
+        "了解HTML5规范，熟悉响应式布局，做过Hybrid开发",
+        "看过一点W3C HTML5 Recommendation，主要是HTML5对标签新的分类、嵌套规范、语义这些",
+        "熟练使用CSS2，了解部分CSS3，基本能做到像素眼还原切图",
+        "深入了解过浮动和消除浮动的机制，了解BFC特性，inline box模型",
+        "看过《响应式布局Web设计，HTML5和CSS3实战》这本书",
+        "看过《Javascript高级程序设计（第三版）》前7章（ECMAScript部分），每一章都有详细的读书笔记",
+        "了解JS中执行环境、作用域、垃圾回收机制、继承、闭包"
         ]
     },{
-        "summary": "`Swift`",
+        "summary": "`JS框架`",
         "description": [
-          "理解并尝试使用 Swift 语言一些新的特性",
-          "对函数式编程范式有一定理解和尝试，在实际项目中尝试使用函数式编程的思想完成一些功能的实现",
-          "了解并能区分 Objective-C 和 Swift 的区别，在实际项目中尽量尝试用 Swift 的思想来完成项目",
-          "在使用 `Swift` 时，在实际项目中尝试多使用结构体、枚举以及面向协议的编程方式",
-          "使用 Swift 完成过一些小的个人项目， 也以团队的形式投入过正式的创业项目"
+          "熟悉Backbone框架，使用过React和Angular框架",
+          "了解单向绑定，双向绑定机制，了解单页应用，前端路由，模版引擎，组件化",
+          "了解上述框架的编程思想以及包含的功能，优劣，以及对各种业务背景的支持度"
         ]
       },
     {
-      "summary": "`Xcode`",
+      "summary": "`JS库+CSS库`",
       "description": [
-        "熟练使用 Xcode 进行 iOS 项目开发",
-        "熟练利用 Instruments 进行项目调试",
-        "理解并熟练掌握应用发布流程、证书机制",
-        "尤其熟悉使用 Xcode 完成应用的国际化的相关流程"
+        "熟悉Jquery，Bootstrap，使用过AdminLTE和Gentelella",
+        "使用过Jquery tmpl模版引擎，以及其他的Jquery插件",
+        "使用过百度Echarts画图，为了统一主题，简化配置，写了个简单的Echarts组件库",
+        "使用过Fontawesome和IcoMoon作为字体图标"
       ]
     }, 
     {
-      "summary": "` iOS 项目第三方框架`",
+      "summary": "`前端工具`",
       "description": [
-        "在项目中习惯使用 CocoaPods 完成第三方依赖，同时也使用过 CocoaPods 制作并发布自己的第三方库",
-        "在项目中使用过 AFNetworking、SDWebImage, MWPhotoBrowser、YYModel、POP、Masonry 等第三方 Objective-C 库",
-        "在项目中使用过 Alamofire、Kingfisher、SwiftyJSON、Carthage 等第三方 Swift 库",
-        "有丰富的集成一些第三方开放平台的经验",
-        "`使用第三方API时习惯在外面封装一层方便日后变更而不影响自身业务代码逻辑`"
+        "使用过gulp和webpack作为前端项目的打包构建工具",
+        "使用过requireJS作为前端模块化工具，了解CommonJS、AMD、CMD规范"
+      ]
+    },
+    {
+      "summary": "`网络安全`",
+      "description": [
+        "了解常见的网络安全漏洞，了解常见的攻击方式和防御手段",
+        "完成过webgoat的题目，尝试使用WebScrab拦截并篡改请求，做session爆破这些"
       ]
     }]
   },
   {
     "type": "backend",
     "item": [{
-      "summary": "`Git`",
+      "summary": "`Node`",
       "description": [
-        "熟练使用 git 基本命令，了解团队开发相关 git 使用流程",
-        "了解并使用过 Git Flow 工作方法",
-        "熟练使用 Source Tree 图形化 Git 工具"
+        "使用过node写过爬虫",
+        "了解Promise机制，使用过三种异步控制工具async，q，eventProxy"
       ]
     }, {
-      "summary": "`React Native`",
+      "summary": "`后端其他`",
       "description": [
-        "阅读并研究过 React Native 的相关源码并加以整理，理解其桥通讯机制、模块化设计以及消息传递机制",
-        "了解如何使用 React Native 相关 API 来完成简单应用的开发"
+        "接触过J2EE的开发，了解Dao，Service，Servlet",
+        "使用过MySQL和Mongodb",
+        "了解RESTful规范，会RESTful API的设计"
       ]
-    },
-    {
-      "summary": "`Sketch`",
+    }]
+  },
+  {
+    "type": "others",
+    "item": [{
+      "summary": "`设计`",
       "description": [
-        "有一定的设计基础，对设计和交互有自己的理解，懂得 Sketch 的基本操作",
-        "习惯直接从美术那里拿 Sketch 源文件来完成 UI 的开发而不需要额外切图"
+        "自学过4年ps，完成过游戏界面设计，手机UI设计，并用到自己的项目中",
+        "会使用sketch，axcure画界面原型图，会使用processon画UML图"
       ]
-    },
-    {
-      "summary": "`前端`",
-      "description":[
-        "有一定的前端基础，有实际的前端项目的开发经验",
-        "熟悉 `React` 框架， 使用 `React` 完成过一些项目以及组件的开发"
-      ]
-    },
-    {
-      "summary": "`其他`",
+    }, {
+      "summary": "`Linux相关`",
       "description": [
-        "一年 `Scrum` 使用经验， 一个月 `Scrum Master` 管理经验",
-        "三年 `Mac` 使用经验，熟悉常用命令与配置，熟练使用命令行",
-        "熟悉 `Python`，能够完成简单的 Python 脚本编写，使用过 Django、Flask 搭建过 Web 应用以及服务器",
-        "熟练使用 `Java` 语言编写代码，编写过一些 Java 桌面程序、游戏",
-        "对 `Android` 开发有所涉猎，开发过几款安卓应用并发布市场",
-        "习惯使用`订阅`的方式来关注圈内技术人员的博客，获取新知识",
-        "习惯使用 `Pocket` 的方式来收藏干货，并整理"
+        "了解Linux基本指令操作，会使用git，tmux等工具",
+        "熟练使用vim编程",
+        "使用过nginx做前后端的部署"
       ]
     }]
   }]

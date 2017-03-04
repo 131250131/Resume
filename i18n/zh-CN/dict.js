@@ -1,15 +1,18 @@
 module.exports = {
     experience_type: {
-        "internship": "（实习）"
+        "internship": "（实习）",
+        "outsource": "（外包）",
+        "job": "（创业）"
     },
     skill_type: {
-        "frontend": "iOS开发",
-        "backend": "其他技术栈",
+        "frontend": "前端开发",
+        "backend": "后端开发",
+        "others": "其他",
         "miscellaneous": "其他"
     },
     education_type: {
         "undergraduate": "（本科）",
-        "graduate":" (硕士) "
+        "graduate":"（硕士） "
     },
     link_type: {
         "zhihu": "知乎",

@@ -69,6 +69,8 @@ mixin skills_frontend(item)
 mixin skills_backend(item)
   +skills_basic(item)(attributes)
 
+mixin skills_others(item)
+  +skills_basic(item)(attributes)
 
 mixin skills_miscellaneous(item)
     ul.skills-description.skills-miscellaneous.timeline-content
@@ -90,6 +92,12 @@ mixin experience_title_internship(item)
   +experience_title_job(item)
 
 mixin experience_content_internship(item)
+  +experience_content_job(item)
+
+mixin experience_title_outsource(item)
+  +experience_title_job(item)
+
+mixin experience_content_outsource(item)
   +experience_content_job(item)
 
 mixin experience_title_project(item)
