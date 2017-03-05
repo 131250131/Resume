@@ -29,7 +29,7 @@
 
   }, {
     "type": "pdf",
-    "url": "static/yuyue94.pdf"
+    "url": "static/yuyue.pdf"
 
   }],
   "education": [{
@@ -55,11 +55,11 @@
     "certificate": [{
       "type": "CET-4",
       "full": "750",
-      "score": ""
+      "score": "518"
     }, {
       "type": "CET-6",
       "full": "750",
-      "score": ""
+      "score": "463"
     }],
     "description": [
       "科学上网，熟练使用谷歌进行英文检索，自行解决问题",
