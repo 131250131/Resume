@@ -69,18 +69,18 @@
   "experience": [ {
     "type": "internship",
     "techtype": "前端",
-    "place": "贝湾教育科技有限公司",
+    "place": "贝湾教育科技有限公司（扇贝英语）",
     "start": "2015-7",
     "end": "2016-1",
     "name": "前端开发",
     "description": [
-      "英语考题的出题端和做题端，题型包括常见的阅读理解，完形填空，句子排序，段落标题等10种题型",
-      "重构了扇贝英语的阅读计划模块，听力计划模块，以及整个听力学习模块的代码，代码逻辑更加清晰，代码的复用率也提高了",
+      "英语考题的出题端和做题端的Web页面，题型包括常见的阅读理解，完形填空，句子排序，段落标题等10种题型",
+      "重构了扇贝英语的阅读计划模块，听力计划模块，重写了整个听力学习模块的代码，代码逻辑更加清晰，代码的复用率也提高了",
       "使用`Hybrid技术`，完成3种不同主题的打卡页面，`响应式布局`，适配ios和安卓各类机型，还包括ipad的横屏和竖屏",
-      "增加了全局查询柯林斯字典的功能",
+      "增加全局查询柯林斯字典的功能",
       "增加短信通信留言的功能",
       "公司采用线上开发的形式，使用命令行中的`vim`完成所有编码工作",
-      "第一次的实习，由于公司将大部分前端工作都交给两位实习生来做，其间我学到了非常多的基础知识，动手能力得到非常大的提高，第一次接触到了js框架——Backbone"
+      "使用了Backbone框架开发，学习模块化组件式的编程，主要提升熟练度"
     ],
     "stack": ["Backbone", "Jquery tmpl", "Less", "Vim"]
   }, {
@@ -99,21 +99,6 @@
     "stack": ["Backbone", "Hybrid", "PS"]
   },
   {
-    "type": "project",
-    "techtype": "node",
-    "project_type": "personal",
-    "name": "网站安全检测爬虫",
-    "source": "",
-    "description": [
-      "毕业设计，使用`node`开发的网站安全检测爬虫，是整个安全平台的一部分，爬虫会将检测信息存为json格式的文件，供数据同步化模块处理",
-      "学习了`commonJS`规范，`mongodb`的使用，`promise`机制，异步编程尝试对比使用了三种异步控制工具async，q，eventProx",
-      "对比使用了两种请求工具，superagent和request，解决了让人头疼的`中文编码问题`",
-      "使用了生产者和消费者模式，由拆分合并爬虫任务，到爬虫任务的调度，再到爬虫任务的执行，将数据库作为任务池，但IO较多，性能不高",
-      "尝试解决了由于闭包引发的`内存泄漏`的问题"
-    ],
-    "stack": ["node", "promise", "mongodb", "安全检测"]
-  },
-  {
     "type": "outsource",
     "techtype": "前端",
     "place": "江苏同袍信息科技有限公司",
@@ -123,22 +108,9 @@
     "description": [
       "同袍预警监控平台（http://www.bugglare.com/），用于监控网站安全，扫描网站漏洞，是上一个项目的管理端，但现在归属于同袍科技，我继续完善管理端的前端",
       "使用模块化工具`requireJs`，学习`AMD`和`CMD`规范，使用`adminLTE`的ui框架",
-      "学习使用`echarts`作图，作图总数30个左右，为了适配公司的统一配色，写了个简单的echarts组件库chartsLibrary，组件库只有三种常用图表"
+      "学习使用`echarts`作图，作图总数30个左右，为了适配公司的统一配色，写了个简单的echarts组件库chartsLibrary，自己的组件库只有三种常用图表"
     ],
     "stack": ["requirejs", "echarts"]
-  },
-  {
-    "type": "project",
-    "techtype": "前端",
-    "project_type": "personal",
-    "name": "webvox",
-    "source": "https://github.com/yuyue94/webvox",
-    "description": [
-      "为了学习`react`和`webpack`做的个人项目，是一个网页音乐播放器",
-      "为了界面效果好看，加了一些css3动画，最麻烦的是要实现流畅地拖拽进度条，当时考虑的要去掉默认的selection，而且要考虑用户拖拽时鼠标的顺势向下移动带来的问题",
-      "学习使用了音乐播放插件`soundManager2`"
-    ],
-    "stack": ["react", "webpack", "soundManager2"]
   },
   {
     "type": "internship",
@@ -150,12 +122,83 @@
     "description": [
       "慕测平台是做各类型测试的网络学习和考试平台（http://www.mooctest.net/），我主要负责做网络安全测试这一块",
       "分两个项目，第一个是kivul，是一个常见十大漏洞学习平台，由开源项目`webgoat`改造而来，主要增加了考试的功能",
-      "其间额外写了一个python试题的出题器，可以添加题目描述，题目的实例代码，测试用例（分专业版和小白版），题目答案，提示等，使用`sessionStorage`前端缓存，保证刷新后当前提交前的编辑不会丢失，网页代码的编辑使用的是插件ace",
       "第二个项目是kivul的网络漏洞审核验证平台，使用的框架是`angular`，自动化构建工具是`gulp`，ui框架是`gentelella`",
       "采用`众包测试`的思想，由企业人员创建站点任务，将扫描出的站点漏洞打包成案例，上传至慕测主站，可以供老师使用和考试，学生可以验证漏洞以此达到学习的目的，做到产教结合",
       "在团队中，根据业务需求，统一了所有子站的前端框架和ui框架，以及一些编码规范，为团队前端做出了不错的贡献"
     ],
-    "stack": ["Backbone", "Angular", "ace", "gulp"]
+    "stack": ["Backbone", "Angular", "gulp"]
+  },
+  {
+    "type": "internship",
+    "techtype": "前端",
+    "place": "广东前海源伞科技有限公司",
+    "start": "2017-4",
+    "end": "至今",
+    "name": "前端开发",
+    "description": [
+      "作为公司唯一的前端程序员，从技术选型到架构，独立开发公司的源码扫描前端平台，功能主要为任务创建，日志查看，服务进程管理，dashboard页面",
+      "使用d3和cytoscapejs画trace map、call graph和treemap，帮助程序员更好地查看bug",
+      "使用了vue全家桶，element-ui，webpack搭建了整个平台",
+      "使用webdriverio搭建自动化测试工具，基于selenium的node api，wdio也作为test runner，node assert作为断言库，配置过chrome和firefox作为浏览器测试",
+      "解决过vuex和v-model双向绑定的冲突问题",
+      "解决大量日志文件的动画滚动问题，后面有具体描述和demo",
+      "向element提过issue，虽然没人鸟"
+    ],
+    "stack": ["vue全家桶", "element-ui", "webpack", "d3", "cytoscapejs"]
+  },
+  {
+    "type": "project",
+    "techtype": "前端",
+    "project_type": "personal",
+    "name": "webvox",
+    "source": "https://github.com/yuyue94/webvox",
+    "demo": "http://120.77.159.124:40072/webvox/build/index.html",
+    "description": [
+      "学习`react`和`webpack`做的个人项目，是一个网页音乐播放器",
+      "为了界面效果好看，加了一些css3动画，最麻烦的是要实现流畅地拖拽进度条，当时考虑的要去掉默认的selection，而且要考虑用户拖拽时鼠标的顺势向下移动带来的问题",
+      "学习使用了音乐播放插件`soundManager2`"
+    ],
+    "stack": ["react", "webpack", "soundManager2"]
+  },
+  {
+    "type": "project",
+    "techtype": "node",
+    "project_type": "personal",
+    "name": "网站安全检测爬虫",
+    "source": "",
+    "description": [
+      "毕业设计，使用`node`开发的网站安全检测爬虫，是整个安全平台的一部分，爬虫会将检测信息存为json格式的文件，供数据同步化模块处理",
+      "学习了`commonJS`规范，`mongodb`的使用，`promise`机制，异步编程尝试对比使用了三种异步控制工具async，q，eventProxy",
+      "对比使用了两种请求工具，superagent和request，解决了让人头疼的`中文编码问题`",
+      "使用了生产者和消费者模式，由拆分合并爬虫任务，到爬虫任务的调度，再到爬虫任务的执行，将数据库作为任务池，但IO较多，性能不高",
+      "尝试解决了由于闭包引发的`内存泄漏`的问题"
+    ],
+    "stack": ["node", "promise", "mongodb", "安全检测"]
+  },
+  {
+    "type": "project",
+    "techtype": "前端",
+    "project_type": "personal",
+    "name": "Exam Editor",
+    "source": "https://github.com/yuyue94/exam-editor",
+    "demo": "http://120.77.159.124:40072/exam-editor/index.html",
+    "description": [
+      "python试题的出题器，可以添加题目描述，题目的实例代码，测试用例（分专业版和小白版），题目答案，提示等，使用`sessionStorage`前端缓存，保证刷新后当前提交前的编辑不会丢失，网页代码的编辑使用的是插件ace",
+      "Backbone框架，requirejs，jquery-tmpl，bootstrap"
+    ],
+    "stack": ["backbone", "requirejs"]
+  },
+  {
+    "type": "project",
+    "techtype": "前端",
+    "project_type": "personal",
+    "name": "Gliding Window Log Div",
+    "source": "https://github.com/yuyue94/gliding-window-log",
+    "demo": "http://120.77.159.124:40072/gliding-window-log/index.html",
+    "description": [
+      "vue组件，使用滑动窗口的思想实现的大量日志输出框"
+    ],
+    "stack": ["vue"]
   }],
   "skills": [{
     "type": "frontend",
@@ -167,14 +210,14 @@
         "熟练使用CSS2，了解部分CSS3，基本能做到像素眼还原切图",
         "深入了解过浮动和消除浮动的机制，了解BFC特性，inline box模型",
         "看过《响应式布局Web设计，HTML5和CSS3实战》这本书",
-        "看过《Javascript高级程序设计（第三版）》前7章（ECMAScript部分），每一章都有详细的读书笔记",
-        "了解JS中执行环境、作用域、垃圾回收机制、继承、闭包"
+        "看过《Javascript高级程序设计（第三版）》主要章节，github有读书笔记，笔记中扩展有权威指南和ECMAScript® Language Specification的一些内容"
         ]
     },{
         "summary": "`JS框架`",
         "description": [
-          "熟悉Backbone框架，使用过React和Angular框架",
+          "熟练使用Backbone，Vue框架，熟悉Angular框架，了解React框架",
           "了解单向绑定，双向绑定机制，了解单页应用，前端路由，模版引擎，组件化",
+          "了解过较深入的框架知识，比如对比vue和react和变化侦听机制，virtual dom算法，Object和Array变化检测",
           "了解上述框架的编程思想以及包含的功能，优劣，以及对各种业务背景的支持度"
         ]
       },
@@ -184,7 +227,8 @@
         "熟悉Jquery，Bootstrap，使用过AdminLTE和Gentelella",
         "使用过Jquery tmpl模版引擎，以及其他的Jquery插件",
         "使用过百度Echarts画图，为了统一主题，简化配置，写了个简单的Echarts组件库",
-        "使用过Fontawesome和IcoMoon作为字体图标"
+        "使用过Fontawesome和IcoMoon作为字体图标",
+        "使用过d3和cytoscapejs画图"
       ]
     }, 
     {
@@ -232,7 +276,7 @@
       "description": [
         "了解Linux基本指令操作，会使用git，tmux等工具",
         "熟练使用vim编程",
-        "使用过nginx做前后端的部署"
+        "使用过nginx做网页应用的部署"
       ]
     }]
   }]
