@@ -39,6 +39,9 @@
     "start": "2012",
     "end": "2016",
     "honor": [
+      "学分绩排名前20%，年级总人数240人",
+      "南京大学优秀毕业生",
+      "人民奖学金二等"
     ]
   },
     {
@@ -55,11 +58,11 @@
     "certificate": [{
       "type": "CET-4",
       "full": "750",
-      "score": "518"
+      "score": ""
     }, {
       "type": "CET-6",
       "full": "750",
-      "score": "463"
+      "score": ""
     }],
     "description": [
       "科学上网，熟练使用谷歌进行英文检索，自行解决问题",
@@ -106,7 +109,7 @@
     "end": "2016-9",
     "name": "前端开发",
     "description": [
-      "同袍预警监控平台（http://www.bugglare.com/），用于监控网站安全，扫描网站漏洞，是上一个项目的管理端，但现在归属于同袍科技，我继续完善管理端的前端",
+      "同袍预警监控平台（http://www.bugglare.com/），用于监控网站安全，扫描网站漏洞，是上一个项目的管理端，但现在归属于同袍科技，负责完善管理端的前端",
       "使用模块化工具`requireJs`，学习`AMD`和`CMD`规范，使用`adminLTE`的ui框架",
       "学习使用`echarts`作图，作图总数30个左右，为了适配公司的统一配色，写了个简单的echarts组件库chartsLibrary，自己的组件库只有三种常用图表"
     ],
@@ -120,7 +123,7 @@
     "end": "2017-3",
     "name": "前端开发",
     "description": [
-      "慕测平台是做各类型测试的网络学习和考试平台（http://www.mooctest.net/），我主要负责做网络安全测试这一块",
+      "慕测平台是做各类型测试的网络学习和考试平台（http://www.mooctest.net/），主要负责做网络安全测试这一块",
       "分两个项目，第一个是kivul，是一个常见十大漏洞学习平台，由开源项目`webgoat`改造而来，主要增加了考试的功能",
       "第二个项目是kivul的网络漏洞审核验证平台，使用的框架是`angular`，自动化构建工具是`gulp`，ui框架是`gentelella`",
       "采用`众包测试`的思想，由企业人员创建站点任务，将扫描出的站点漏洞打包成案例，上传至慕测主站，可以供老师使用和考试，学生可以验证漏洞以此达到学习的目的，做到产教结合",
@@ -142,7 +145,7 @@
       "使用webdriverio搭建自动化测试工具，基于selenium的node api，wdio也作为test runner，node assert作为断言库，配置过chrome和firefox作为浏览器测试",
       "解决过vuex和v-model双向绑定的冲突问题",
       "解决大量日志文件的动画滚动问题，后面有具体描述和demo",
-      "向element提过issue，虽然没人鸟"
+      "向element提过issue"
     ],
     "stack": ["vue全家桶", "element-ui", "webpack", "d3", "cytoscapejs"]
   },
