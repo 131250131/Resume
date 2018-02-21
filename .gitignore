@@ -5,3 +5,9 @@ design
 .publish
 temp*
 question*
+
+.idea
+*.iml
+
+.DS_Store
+package-lock.json
