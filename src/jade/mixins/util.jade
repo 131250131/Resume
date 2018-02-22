@@ -72,6 +72,9 @@ mixin skills_backend(item)
 mixin skills_others(item)
   +skills_basic(item)(attributes)
 
+mixin skills_devops(item)
+  +skills_basic(item)(attributes)
+
 mixin skills_miscellaneous(item)
     ul.skills-description.skills-miscellaneous.timeline-content
       each desc in item.item
@@ -106,8 +109,8 @@ mixin experience_title_project(item)
     if item.source
       a.experience-project-link(href=item.source)= dict.source_code
     if item.demo
-        a.experience-project-link(href=item.demo)= dict.demo
-
+      a.experience-project-link(href=item.demo)= dict.demo
+      
 mixin experience_content_project(item)
 
   dt.experience-project-name= item.name

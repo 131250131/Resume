@@ -7,6 +7,7 @@ module.exports = {
     skill_type: {
         "frontend": "Frontend Development",
         "backend": "Backend Development",
+        "devops": "DevOps",
         "others": "Others",
         "miscellaneous": "Miscellaneous"
     },
