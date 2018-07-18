@@ -3,7 +3,7 @@
   "resume_title": "陈圣超 - 个人简历",
   "name": "陈圣超",
   "repo": "git@github.com:131250131/Resume.git",
-  "job_description": ["后端开发工程师"],
+  "job_description": ["基础平台研发工程师"],
   "contact": {
     "phone": "15850551930",
     "email": "csc13@smail.nju.edu.cn",
@@ -13,6 +13,9 @@
     },
     "github": {
       "id": "131250131"
+    },
+    "blog" : {
+      "url": "http://www.since0130.com"
     }
   },
   "links": [{
@@ -133,7 +136,7 @@
           "熟练使用SpringBoot框架，了解一些Spring的实现，理解SpringBoot与Spring的关系。",
           "知道Dubbo框架，关注Dubbo的发展，在业务中尝试使用",
           "知道AMQP，使用过RabbitMQ框架，知道消息队列想要解决什么问题，知道Pull模型和Push模型各自的特点。",
-          "知道Netty框架，写过一个Netty框架的Demo，尝试阅读Netty源码。",
+          "知道Netty框架。",
           "使用过ZooKeeper，知道其数据结构。"
         ]
       }]
